@@ -1,0 +1,21 @@
+---
+title: "Kermit Perceptions Rank Based Test"
+author: "Joslyn Fritz"
+date: "11/13/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Hello, this is Joslyn's first message in the document. 
+
+
+
+
+
+
+
+
+
