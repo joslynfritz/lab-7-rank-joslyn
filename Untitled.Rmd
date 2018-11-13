@@ -47,8 +47,18 @@ mwu_kermit
  n
 There was no sig diff in male and female respondents (w = 155.5, p=0.4, alpha = 0.05).
 
+Next Questions (collabs):
 
+Is there a sig diff before and after Kermit's Bren talk? 
 
+```{r}
+
+wsr_kermit <- wilcox.test(kermit$Score.pre, kermit$Score.post, paired = TRUE)
+
+wsr_kermit
+```
+
+There is no sig diff in ranks btwn pre and post talk Kermit scores. 
 
 
 
