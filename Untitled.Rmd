@@ -44,7 +44,7 @@ mwu_kermit <- kermit %>%
 mwu_kermit
 
 ```
-
+ n
 There was no sig diff in male and female respondents (w = 155.5, p=0.4, alpha = 0.05).
 
 
