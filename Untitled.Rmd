@@ -29,8 +29,23 @@ kerm_hist
 
 ```
 
+Creator: perform rank-based tests using Mann-Whiteny U and Wilcox-signed rank
 
+Is there a sig diff in pre-talk of male and female respondents?
 
+```{r}
+
+mwu_kermit <- kermit %>% 
+  wilcox.test(Score.pre ~ Gender, data = .)
+
+# Null: there is not a sig diff in ranks btwn male and female respondents
+# Alt: there is a sig different in ranks
+
+mwu_kermit
+
+```
+
+There was no sig diff in male and female respondents (w = 155.5, p=0.4, alpha = 0.05).
 
 
 
